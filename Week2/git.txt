@@ -1,0 +1,151 @@
+
+User@DESKTOP-K19KRNG MINGW64 ~
+$ git version
+git version 2.30.0.windows.2
+
+User@DESKTOP-K19KRNG MINGW64 ~
+$ pwd
+/c/Users/User
+
+User@DESKTOP-K19KRNG MINGW64 ~
+$ cd Documents
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents
+$ mkdir Modules
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents
+$ ls
+'Custom Office Templates'/  'My Music'@     'My Videos'@
+ Modules/                   'My Pictures'@   desktop.ini
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents
+$ cd Modules
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules
+$ pwd
+/c/Users/User/Documents/Modules
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules
+$ git clone https://github.com/eabumere/CSYM019.git
+Cloning into 'CSYM019'...
+warning: You appear to have cloned an empty repository.
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules
+$ ls
+CSYM019/
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules
+$ cd CSYM019/
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ mkdir Week2
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ ls
+Week2/
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ ls
+Week2/
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ cd Week2/
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019/Week2 (master)
+$ ls
+testpageblock.html
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019/Week2 (master)
+$ cd ..
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ cd..
+bash: cd..: command not found
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ cd ..
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules
+$ pwd
+/c/Users/User/Documents/Modules
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules
+$ cd CSYM019/
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ git add .
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ git commit -m "this is my first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@DESKTOP-K19KRNG.(none)')
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ git config --global user.name "Abumere Ejakhegbe"
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ git commit -m "this is my first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@DESKTOP-K19KRNG.(none)')
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ git config --global user.name "Abumere Ejakhegbe"
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ git config --global user.email abumere.ejakhegbe@gmail.com
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ git commit -m "this is my first commit"
+[master (root-commit) efb1e34] this is my first commit
+ 1 file changed, 16 insertions(+)
+ create mode 100644 Week2/testpageblock.html
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 392 bytes | 392.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/eabumere/CSYM019.git
+ * [new branch]      master -> master
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/eabumere/CSYM019.git'
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+User@DESKTOP-K19KRNG MINGW64 ~/Documents/Modules/CSYM019 (master)
+$
